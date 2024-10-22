@@ -1,0 +1,12 @@
+git
+neovim
+ttf-jetbrains-mono
+xorg-xrandr
+zsh
+xwallpaper
+python-pywal
+xdotool
+pacman-utils
+htop
+neofetch
+sbctl
