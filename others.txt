@@ -1,1 +1,10 @@
+# dwm windows names
+Deus, Vertias, Pax, Amor, Libertas
 
+# configs
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" #zsh
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim #neovim
+
+# ly services
+systemctl disable getty@tty2.service
+systemctl enable ly.service
