@@ -12,3 +12,4 @@ xorg-xsetroot
 htop
 neofetch
 sbctl
+ly
