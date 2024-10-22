@@ -5,8 +5,10 @@ xorg-xrandr
 zsh
 xwallpaper
 python-pywal
+xcompmgr
 xdotool
 pacman-utils
+xorg-xsetroot
 htop
 neofetch
 sbctl
