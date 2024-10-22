@@ -10,11 +10,6 @@ upd(){
   echo -e " $upd updates"
 }
 
-mem(){
-  mem=`free | awk '/Mem/ {printf "%d MiB/%d MiB\n", $3 / 1024.0, $2 / 1024.0 }'`
-  echo -e " $mem"
-}
-
 cpu(){
   read cpu a b c previdle rest < /proc/stat
   prevtotal=$((a+b+c+previdle))
@@ -26,6 +21,6 @@ cpu(){
 }
 
 while true; do
-  xsetroot -name "$(cpu) | $(mem) | $(upd) | $(dte)"
+  xsetroot -name "$(cpu) | $(upd) | $(dte)"
   sleep 10
 done &
